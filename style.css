@@ -9,11 +9,12 @@ header {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-image: ;
     }
 
     header h1 {
         display: inline-block;
-        margin-top: 25px;
+        margin: 25px;
     }
 
     .nav {
@@ -21,21 +22,34 @@ header {
         margin-left: 25px;
     }
 
-     .links {
-        padding-top: 15px;
-        margin-right: 20px;
-        float: right;
-    }
-
     .links ul li {
-        display: inline-block;
-        margin-right: 270px;
+        /* display: inline-block;
+        margin-left: 250px; */
+        text-align: center;
     }
 
     body {
         font-family: 'Times New Roman', Times, serif;
     }
 
-    .portfolio {
+    main {
+    margin-left: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    }
 
+    section {
+        text-align: center;
+        clear: both;
+    }
+
+ 
+    footer {
+        padding: 30;
+        clear: both;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
     }
