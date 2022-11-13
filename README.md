@@ -1,2 +1,2 @@
 # Deployed-Porfolio
-This will be a portfolio of samples of my work.
+This will be a portfolio of samples of my work. A pic has been added to the header and a nav section with links to various sections of the page.  I added a hover feature so sections of my portfolio change color when the user hovers over each featured work. There's contact information section that is linked to as well. 
