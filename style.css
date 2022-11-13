@@ -39,7 +39,9 @@ header {
         flex-wrap: wrap;
         background-color: silver;
         padding: 15px;
+        font-size: 25px;
     }
+
     main {
     margin-left: 20px;
     padding: 50px;
@@ -53,16 +55,31 @@ header {
 
     section {
         padding: 50px;
+        margin: 0;
+        width: 200px;
         text-align: center;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         background: rgb(60, 137, 214);
-        
+    }
+
+    section:hover, aside:hover {
+        background-color: white;
+    }
+
+    aside {
+        margin-left: 500px;
+        border-style: solid;
+        background-color: rgb(148, 201, 148);
+    }
+
+     .contact {
+        text-align: center;
     }
 
     footer {
-        padding: 30;
+        padding-top: 100;
         clear: both;
         font-family: 'Times New Roman', Times, serif;
         text-align: center;
